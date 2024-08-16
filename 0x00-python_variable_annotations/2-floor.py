@@ -1,10 +1,16 @@
 #!/usr/bin/env python3
-'''Task 5's module.
-'''
-from typing import List
+"""
+    Truncate float to integer
+"""
 
 
-def sum_list(input_list: List[float]) -> float:
-    '''Computes the sum of a list of floating-point numbers.
-    '''
-    return float(sum(input_list))
+def floor(n: float) -> int:
+    """
+        Args:
+            n: float number
+
+        Return:
+            Float number truncated to floor
+    """
+
+    return int(n)
